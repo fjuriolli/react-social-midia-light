@@ -3,7 +3,7 @@
  */
 export enum PostsTypes {
   POST_REQUEST = "@posts/POST_REQUEST",
-  POST_SUCCES = "@posts/POST/SUCCESS",
+  POST_SUCCESS = "@posts/POST/SUCCESS",
   POST_FAILURE = "@posts/POST_FAILURE"
 }
 
@@ -16,7 +16,7 @@ export interface Post {
 }
 
 /**
- * State types
+ * State types - reducer format state
  */
 export interface PostsState {
   readonly data: Post[];
