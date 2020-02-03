@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"reactsocialmidiaef314b9f": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

@@ -1,8 +1,6 @@
 import { createStore, Store } from "redux";
 import { PostsState } from "./ducks/posts/types";
-
 import rootReducer from "./ducks/rootReducer";
-
 export interface ApplicationState {
   posts: PostsState;
 }

@@ -1,0 +1,20 @@
+{
+    "react": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-reactsocialmidia-react-183011-authRole",
+            "UnauthRoleArn": "arn:aws:iam::865386646055:role/amplify-reactsocialmidia-react-183011-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::865386646055:role/amplify-reactsocialmidia-react-183011-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-reactsocialmidia-react-183011-deployment",
+            "UnauthRoleName": "amplify-reactsocialmidia-react-183011-unauthRole",
+            "StackName": "amplify-reactsocialmidia-react-183011",
+            "StackId": "arn:aws:cloudformation:us-east-2:865386646055:stack/amplify-reactsocialmidia-react-183011/5dfdd390-46cc-11ea-aa8a-0672668ff2ce",
+            "AmplifyAppId": "dvcy9drcd3u1j"
+        },
+        "categories": {
+            "auth": {
+                "reactsocialmidiaef314b9f": {}
+            }
+        }
+    }
+}
