@@ -3,7 +3,7 @@
  */
 export enum PostsTypes {
   POST_REQUEST = "@posts/POST_REQUEST",
-  POST_SUCCESS = "@posts/POST/SUCCESS",
+  POST_SUCCESS = "@posts/POST_SUCCESS",
   POST_FAILURE = "@posts/POST_FAILURE"
 }
 
