@@ -8,8 +8,8 @@ interface FormData {
   confirmation_code: string;
 }
 
-export default function SignUpForm() {
-  const { handleSubmit, errors, register } = useForm<FormData>();
+export default function SignInForm() {
+  const { handleSubmit, register } = useForm<FormData>();
   const [signedIn, setSignedIn] = useState(false);
 
   const onSubmit = handleSubmit((data: FormData) => {
