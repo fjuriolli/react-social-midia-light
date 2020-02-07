@@ -24,8 +24,11 @@ export default createGlobalStyle`
   }
 
   body {
+    background: ${props => props.theme.colors.background};
+    font-size: 14px;
+    color: ${props => props.theme.colors.text};
+    font-family: Roboto;
     -webkit-font-smoothing: antialiased !important;
-    background-color: rgb(255, 254, 252) !important;
   }
 
   button {
